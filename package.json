@@ -1,7 +1,7 @@
 {
   "name": "@itshkins/vue-utils",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vue composables",
   "main": "./dist/vue-utils.cjs",
   "browser": "./dist/vue-utils.js",
