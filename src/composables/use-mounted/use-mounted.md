@@ -10,7 +10,11 @@ It might be __useful__ in case you are __unable to cancel async operation__, e.g
   <form @submit.prevent="submit"/>
 </template>
 
-<script>
+<script setup>
+import {useMounted} from '@itshkins/vue-utils'
+
+const mounted = useMounted()
+
 const submit = (evt) => {
   const data = new FormData(evt.target)
 
